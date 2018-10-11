@@ -1,0 +1,7 @@
+drop database teacher;
+create database if not exists teacher;
+use teacher;
+create table teacher_details(first_name varchar(20),last_name varchar(20),password varchar(32),sex varchar(7),teacher_type varchar(5),mobile_no varchar(10),email_id varchar(50),DOB varchar(12));
+
+
+
